@@ -35,7 +35,7 @@ function happyFn(happy) {
     // Facebook enforces this requirement.
     window.setTimeout(function() {
         happyFn(happy.splice(1));
-    }, 800);
+    }, 8000);
 }
 
 function haltFn() {
